@@ -1,13 +1,14 @@
 
 .App {
   height: 100vh;
-  background-image: url('./img/bg.png');
+  background-color: #e3f3f6; 
   position: relative;
 }
 
+
 .App main {
   flex: 1;
-  background: rgba(252, 246, 249, 0.78);
+  background: rgba(211, 209, 210, 0.78); 
   border: 3px solid #FFFFFF;
   backdrop-filter: blur(4.5px);
   border-radius: 32px;
