@@ -4,7 +4,9 @@
   "description": "\"This is a Expenses Tracker App\"",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "postinstall": "prisma generate"
   },
   "author": "\"Sachin Kumar Dagar\"",
   "license": "ISC",
