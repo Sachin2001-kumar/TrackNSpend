@@ -3,6 +3,8 @@ import axios from 'axios';
 
 // ✅ Correct way to load env variable
 const BASE_URL = `${process.env.REACT_APP_BACKEND_URL}/api/v1`;
+console.log("Loaded BASE_URL in production:", BASE_URL);
+
 
 const GlobalContext = React.createContext();
 
